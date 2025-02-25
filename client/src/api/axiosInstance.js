@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://studynotion-1-kpad.onrender.com",
+  baseURL: "https://studynotion-1-kpad.onrender.com",
 });
 
 axiosInstance.interceptors.request.use(
